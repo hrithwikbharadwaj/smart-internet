@@ -33,8 +33,11 @@
 
 .Boxcontent {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
 }
+/*  Boxcontent for mobile screen */
+
 a {
   text-decoration: none;
 }
@@ -61,4 +64,20 @@ a {
 }
 body {
   background: #11052c;
+}
+
+@media only screen and (max-width: 600px) {
+  .ImageStyle {
+    height: 200px;
+    width: 100%;
+    border-radius: 30px;
+  }
+}
+
+@media only screen and (min-width: 667px) {
+  .ImageStyle {
+    height: 200px;
+    width: 400px;
+    border-radius: 30px;
+  }
 }

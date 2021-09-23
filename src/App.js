@@ -60,7 +60,7 @@ function ChangeResource(tag){
     return(
         <div key={item.title} className="GridView">
      <a href={item.url} >
-     <img   style={{height:"200px",width:"400px",borderRadius:"30px"}} src={item.cover} alt="" /> 
+     <img   className="ImageStyle" src={item.cover} alt="" /> 
      <h3 style={{color:"white",width:"100%",maxWidth:"400px",textAlign:"center",display:"absolute"}}>  {item.title}  </h3>
      </a>
   </div> ) }
