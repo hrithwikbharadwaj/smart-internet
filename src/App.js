@@ -26,7 +26,7 @@ function App() {
   
   
 
-  const tags=["Marketing","Product","Startups","Crypto","AI"];
+  const tags=["Marketing","Startups","Podcasts","Product","Crypto","Learn"];
 
 
 
