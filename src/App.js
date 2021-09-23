@@ -40,7 +40,7 @@ function ChangeResource(tag){
     <> 
     <div className="row">
      <div className="Boxtitle">
-      <h1> Curated List of Best Articles and Resources</h1>
+      <h1> Curated List of Best Articles and Resources 📚</h1>
      </div>
      </div>
 
